@@ -5,6 +5,7 @@ import * as React from 'react';
 function MoneyButton ({nbreCoins, setNbreCoins}) {
     function handleClick (e) {
         setNbreCoins(nbreCoins+1)
+        console.log("J'ai réussi à corrompre le bouton!")
     }
     return (
         <Button 
